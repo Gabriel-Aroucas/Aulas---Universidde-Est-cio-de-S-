@@ -1,0 +1,39 @@
+body{
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p{
+    font-style: oblique;
+}
+img{
+    color: #1d1d1d;
+    font-weight: bold;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: rgb(65, 65, 226);
+    color:#fff;
+    font-weight: bold;
+    border: none;
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.04);
+}
+
+@keyframes loop {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
