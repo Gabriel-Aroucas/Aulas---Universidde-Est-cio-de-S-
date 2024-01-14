@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/JAVASCRIPT - 001/Exercicio_001 _calculadora/script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercicio_001</title>
+  </head>
+  <body>
+    <table>
+      <tr class="visor">
+        <td colspan="4" class="visorContent"></td>
+      </tr>
+      <tr>
+        <td class="clear" width="100px" onclick="calc('c')">c</td>
+        <td class="sum" width="100px" onclick="calc('+')">+</td>
+        <td class="subtraction" width="100px" onclick="calc('-')">-</td>
+        <td class="multiplication" width="100px" onclick="calc('*')">x</td>
+      </tr>
+      <tr>
+        <td onclick="calc(7)">7</td>
+        <td onclick="calc(8)">8</td>
+        <td onclick="calc(9)">9</td>
+        <td class="divisor" onclick="calc('/')">/</td>
+      </tr>
+      <tr>
+        <td onclick="calc(4)">4</td>
+        <td onclick="calc(5)">5</td>
+        <td onclick="calc(6)">6</td>
+        <td class="percent" onclick="calc('%')">%</td>
+      </tr>
+      <tr>
+        <td onclick="calc(1)">1</td>
+        <td onclick="calc(2)">2</td>
+        <td onclick="calc(3)">3</td>
+        <td rowspan="2" class="result" onclick="calc()">=</td>
+      </tr>
+      <tr>
+        <td colspan="3" onclick="calc('0')">0</td>
+      </tr>
+    </table>
+  </body>
+</html>
