@@ -6,8 +6,7 @@
     $carros = array("fusca","monza","passat");
 
     //another way to declare an array
-    $carros = ["gol","palio","polo"]
-
+    $carros = ["gol","palio","polo"];
     //second way to declare an array
     $carros[0] = "santana";
     $carros[1] = "chevette";
@@ -24,5 +23,4 @@
         "vw" => "punto",
         "chevrolet" => "prisma",
         "fiat" => "tempra"
-    )
-?>
+    );
